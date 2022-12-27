@@ -37,12 +37,12 @@ public class ColorPopoverWell: NSColorWell {
     return popover
   }()
 
-  override init(frame frameRect: NSRect) {
+  public override init(frame frameRect: NSRect) {
     super.init(frame: frameRect)
     postSetup()
   }
 
-  required init?(coder: NSCoder) {
+  public required init?(coder: NSCoder) {
     super.init(coder: coder)
     postSetup()
   }
