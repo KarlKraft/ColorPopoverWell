@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ColorPopoverSwatch: NSView {
+internal class ColorPopoverSwatch: NSView {
 
   @IBInspectable var color: NSColor = .clear
   var tracking: Bool = false
