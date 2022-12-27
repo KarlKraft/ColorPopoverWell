@@ -71,19 +71,19 @@ public class ColorPopoverWell: NSColorWell {
     needsDisplay = true
   }
 
-  override func mouseEntered(with event: NSEvent) {
+  public override func mouseEntered(with event: NSEvent) {
     updateTrack(with: event)
   }
 
-  override func mouseMoved(with event: NSEvent) {
+  public override func mouseMoved(with event: NSEvent) {
     updateTrack(with: event)
   }
 
-  override func mouseExited(with event: NSEvent) {
+  public override func mouseExited(with event: NSEvent) {
     updateTrack(with: event)
   }
 
-  override func deactivate() {
+  public override func deactivate() {
     super.deactivate()
     needsDisplay = true
   }
@@ -92,25 +92,25 @@ public class ColorPopoverWell: NSColorWell {
     popover.show(relativeTo: colorRect, of: self, preferredEdge: .minY)
   }
 
-  override func draggingEntered(_ sender: NSDraggingInfo) -> NSDragOperation {
+  public override func draggingEntered(_ sender: NSDraggingInfo) -> NSDragOperation {
     acceptingDrag = true
     needsDisplay = true
     return super.draggingEntered(sender)
   }
 
-  override func draggingExited(_ sender: NSDraggingInfo?) {
+  public override func draggingExited(_ sender: NSDraggingInfo?) {
     acceptingDrag = false
     needsDisplay = true
     return super.draggingExited(sender)
   }
 
-  override func prepareForDragOperation(_ sender: NSDraggingInfo) -> Bool {
+  public override func prepareForDragOperation(_ sender: NSDraggingInfo) -> Bool {
     acceptingDrag = false
     needsDisplay = true
     return super.prepareForDragOperation(sender)
   }
 
-  override func mouseDown(with startEvent: NSEvent) {
+  public override func mouseDown(with startEvent: NSEvent) {
     let startPoint = convert(startEvent.locationInWindow, from: nil)
 
     if (NSPointInRect(startPoint, wheelRect)) {
@@ -162,7 +162,7 @@ public class ColorPopoverWell: NSColorWell {
     popover.performClose(nil)
   }
 
-  override func draw(_ dirtyRect: NSRect) {
+  public override func draw(_ dirtyRect: NSRect) {
     if #available(macOS 10.14, *) {
       PaintCode.drawPopoverWell(frame: bounds, accentColor: .controlAccentColor, color: color, showDropIndicator: acceptingDrag, showColorHover: showColorHover, showColorTrack: showColorTrack, showWheelHover: showWheelHover, showWheelTrack: showWheelTrack, showWheelActive: isActive)
     } else {
