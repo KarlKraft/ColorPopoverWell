@@ -14,7 +14,7 @@
 
 import Cocoa
 
-internal class PaintCode: NSObject {
+class PaintCode: NSObject {
 
   //// Drawing Methods
 

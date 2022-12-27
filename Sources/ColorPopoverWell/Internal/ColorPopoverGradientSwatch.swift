@@ -8,7 +8,7 @@
 
 import Cocoa
 
-internal class ColorPopoverGradientSwatch: NSView {
+class ColorPopoverGradientSwatch: NSView {
 
   var controller: NSViewController?
 
