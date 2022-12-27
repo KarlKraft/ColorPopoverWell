@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment version="101304" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSViewController">
+            <connections>
+                <outlet property="view" destination="c22-O7-iKe" id="P1A-Pr-94H"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="249" height="188"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nYT-sb-3Xa" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="5" y="158" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.99168050289154053" green="0.59650236368179321" blue="0.60725307464599609" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="ppQ-g5-wbz"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bm2-H6-vy6" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="5" y="132" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.98966431617736816" green="0.46140867471694946" blue="0.47767743468284607" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="TR7-Kc-uS1"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mqy-Up-mSY" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="5" y="106" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.98698318004608154" green="0.19898658990859985" blue="0.2368023693561554" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="ueH-l0-o3Y"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jBL-E9-ELh" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="5" y="80" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.98594826459884644" green="0.0" blue="0.026950567960739136" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="eSb-VN-YyP"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="72O-5Z-nFD" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="5" y="54" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.74496877193450928" green="0.0" blue="0.032064609229564667" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="Mot-DW-u1V"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w5w-Gi-GvY" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="5" y="28" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.50196081399917603" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="KP1-eq-0aP"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QIL-1z-HgE" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="45" y="158" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.9956212043762207" green="0.79850846529006958" blue="0.60758626461029053" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="cjI-51-ejK"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x7f-sW-ccj" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="45" y="132" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.99423086643218994" green="0.72731316089630127" blue="0.47814449667930603" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="cXi-p5-MAu"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nWN-HO-mTQ" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="45" y="106" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.99167835712432861" green="0.58258187770843506" blue="0.23764161765575409" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="Igs-Eh-gF3"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FVf-V6-B8B" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="45" y="80" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.99064016342163086" green="0.51506185531616211" blue="0.033060606569051743" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="BMN-Xd-d5e"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhC-Oy-jIf" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="45" y="54" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.71297162771224976" green="0.32080331444740295" blue="0.043327655643224716" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="IAg-SS-OzK"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="coF-kH-joY" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="45" y="28" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.35166358947753906" green="0.19510532915592194" blue="0.067123204469680786" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="8aq-gK-izf"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f0p-Wc-gKa" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="85" y="158" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="1" green="1" blue="0.60801810026168823" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="D5M-0J-EAA"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jda-aM-vOs" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="85" y="132" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="1" green="1" blue="0.47882747650146484" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="l29-ZI-meq"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JiK-mk-eXM" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="85" y="106" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="1" green="1" blue="0.23933018743991852" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="1eD-5g-3gb"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NCb-7g-8od" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="85" y="80" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="1" green="1" blue="0.041410073637962341" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="H2p-3p-9AG"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vEM-Jb-KNG" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="85" y="54" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.75649344921112061" green="0.76982712745666504" blue="0.031288940459489822" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="pea-4C-McB"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MrZ-b5-mAV" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="85" y="28" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.42518147826194763" green="0.4326755702495575" blue="0.011102177202701569" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="KRT-au-3xD"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mfU-Ie-1bH" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="125" y="158" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.61975198984146118" green="1" blue="0.60719066858291626" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="Grf-Dn-DcV"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZtO-sg-dFP" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="125" y="132" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.49633345007896423" green="1" blue="0.47758358716964722" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="vir-Uu-HgH"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0SJ-Cv-KZK" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="125" y="106" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.27600556612014771" green="1" blue="0.23659531772136688" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="7lD-t1-SRC"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ExP-W4-sfq" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="125" y="80" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.13529638946056366" green="1" blue="0.024918794631958008" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="w6n-AE-3y3"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LDo-4p-O5C" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="125" y="54" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.10222829133272171" green="0.77806884050369263" blue="0.015046648681163788" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="9GF-L7-IGj"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qct-jq-fn9" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="125" y="28" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.057456642389297485" green="0.43730774521827698" blue="0.0053336471319198608" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="5ut-19-B8X"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XFu-dq-aOa" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="165" y="158" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.60537362098693848" green="0.58938467502593994" blue="0.99892187118530273" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="0CD-cp-LnU"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DTI-XT-9sY" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="165" y="132" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.47484186291694641" green="0.45050787925720215" blue="0.99866372346878052" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="v2O-yQ-lWD"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XCR-Cq-YAr" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="165" y="106" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.23048600554466248" green="0.17074836790561676" blue="0.9983210563659668" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="1Rc-km-tuU"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xY4-mt-buU" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="165" y="80" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="PYv-xT-PSg"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LSc-Qh-Y2G" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="165" y="54" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.0" green="0.0" blue="0.75421929359436035" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="tGo-RD-X1h"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s6f-6t-vb2" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="165" y="28" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="ZI9-Pk-goe"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rwN-ee-OHs" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="205" y="158" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.99096626043319702" green="0.57924050092697144" blue="0.99947768449783325" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="YIg-Hx-nvy"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="phl-7W-TPa" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="205" y="132" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.98877620697021484" green="0.43478477001190186" blue="0.99935370683670044" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="2rf-sH-bvd"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5BD-la-VV9" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="205" y="106" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.98586350679397583" green="0.12289432436227798" blue="0.99918919801712036" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="dFu-Ka-cbE"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qsY-Rw-D5s" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="205" y="80" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.98473900556564331" green="0.0" blue="0.99912577867507935" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="imf-JC-3uJ"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mra-h7-BRS" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="205" y="54" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.74405664205551147" green="0.0" blue="0.75492709875106812" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="ptx-f5-LjI"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TGP-10-LIM" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="205" y="28" width="39" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="gpa-JO-V2p"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twg-AI-e5M" customClass="ColorPopoverGradientSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="29" y="3" width="191" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="leftColor">
+                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="rightColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="hWh-p9-D92"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VI8-Dp-tbl" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="5" y="3" width="22" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="oTA-JH-XhG"/>
+                    </connections>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yr3-e8-fT4" customClass="ColorPopoverSwatch" customModule="Swift2" customModuleProvider="target">
+                    <rect key="frame" x="222" y="3" width="22" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="controller" destination="-2" id="0CT-90-0C2"/>
+                    </connections>
+                </customView>
+            </subviews>
+            <point key="canvasLocation" x="132.5" y="-72"/>
+        </customView>
+    </objects>
+</document>
