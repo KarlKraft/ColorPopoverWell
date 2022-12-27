@@ -17,7 +17,7 @@
             <rect key="frame" x="0.0" y="0.0" width="249" height="188"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nYT-sb-3Xa" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nYT-sb-3Xa" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="5" y="158" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -29,7 +29,7 @@
                         <outlet property="controller" destination="-2" id="ppQ-g5-wbz"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bm2-H6-vy6" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bm2-H6-vy6" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="5" y="132" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -41,7 +41,7 @@
                         <outlet property="controller" destination="-2" id="TR7-Kc-uS1"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mqy-Up-mSY" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mqy-Up-mSY" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="5" y="106" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -53,7 +53,7 @@
                         <outlet property="controller" destination="-2" id="ueH-l0-o3Y"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jBL-E9-ELh" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jBL-E9-ELh" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="5" y="80" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -65,7 +65,7 @@
                         <outlet property="controller" destination="-2" id="eSb-VN-YyP"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="72O-5Z-nFD" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="72O-5Z-nFD" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="5" y="54" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -77,7 +77,7 @@
                         <outlet property="controller" destination="-2" id="Mot-DW-u1V"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w5w-Gi-GvY" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w5w-Gi-GvY" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="5" y="28" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -89,7 +89,7 @@
                         <outlet property="controller" destination="-2" id="KP1-eq-0aP"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QIL-1z-HgE" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QIL-1z-HgE" customClass="ColorPopoverSwatch" customModuleProvider="target">
                     <rect key="frame" x="45" y="158" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -101,7 +101,7 @@
                         <outlet property="controller" destination="-2" id="cjI-51-ejK"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x7f-sW-ccj" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x7f-sW-ccj" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="45" y="132" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -113,7 +113,7 @@
                         <outlet property="controller" destination="-2" id="cXi-p5-MAu"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nWN-HO-mTQ" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nWN-HO-mTQ" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="45" y="106" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -125,7 +125,7 @@
                         <outlet property="controller" destination="-2" id="Igs-Eh-gF3"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FVf-V6-B8B" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FVf-V6-B8B" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="45" y="80" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -137,7 +137,7 @@
                         <outlet property="controller" destination="-2" id="BMN-Xd-d5e"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhC-Oy-jIf" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhC-Oy-jIf" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="45" y="54" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -149,7 +149,7 @@
                         <outlet property="controller" destination="-2" id="IAg-SS-OzK"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="coF-kH-joY" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="coF-kH-joY" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="45" y="28" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -161,7 +161,7 @@
                         <outlet property="controller" destination="-2" id="8aq-gK-izf"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f0p-Wc-gKa" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f0p-Wc-gKa" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell">
                     <rect key="frame" x="85" y="158" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -173,7 +173,7 @@
                         <outlet property="controller" destination="-2" id="D5M-0J-EAA"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jda-aM-vOs" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jda-aM-vOs" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="85" y="132" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -185,7 +185,7 @@
                         <outlet property="controller" destination="-2" id="l29-ZI-meq"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JiK-mk-eXM" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JiK-mk-eXM" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="85" y="106" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -197,7 +197,7 @@
                         <outlet property="controller" destination="-2" id="1eD-5g-3gb"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NCb-7g-8od" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NCb-7g-8od" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="85" y="80" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -209,7 +209,7 @@
                         <outlet property="controller" destination="-2" id="H2p-3p-9AG"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vEM-Jb-KNG" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vEM-Jb-KNG" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="85" y="54" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -221,7 +221,7 @@
                         <outlet property="controller" destination="-2" id="pea-4C-McB"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MrZ-b5-mAV" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MrZ-b5-mAV" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="85" y="28" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -233,7 +233,7 @@
                         <outlet property="controller" destination="-2" id="KRT-au-3xD"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mfU-Ie-1bH" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mfU-Ie-1bH" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell">
                     <rect key="frame" x="125" y="158" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -245,7 +245,7 @@
                         <outlet property="controller" destination="-2" id="Grf-Dn-DcV"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZtO-sg-dFP" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZtO-sg-dFP" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="125" y="132" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -257,7 +257,7 @@
                         <outlet property="controller" destination="-2" id="vir-Uu-HgH"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0SJ-Cv-KZK" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0SJ-Cv-KZK" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="125" y="106" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -269,7 +269,7 @@
                         <outlet property="controller" destination="-2" id="7lD-t1-SRC"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ExP-W4-sfq" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ExP-W4-sfq" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="125" y="80" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -281,7 +281,7 @@
                         <outlet property="controller" destination="-2" id="w6n-AE-3y3"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LDo-4p-O5C" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LDo-4p-O5C" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="125" y="54" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -293,7 +293,7 @@
                         <outlet property="controller" destination="-2" id="9GF-L7-IGj"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qct-jq-fn9" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qct-jq-fn9" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="125" y="28" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -305,7 +305,7 @@
                         <outlet property="controller" destination="-2" id="5ut-19-B8X"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XFu-dq-aOa" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XFu-dq-aOa" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="165" y="158" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -317,7 +317,7 @@
                         <outlet property="controller" destination="-2" id="0CD-cp-LnU"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DTI-XT-9sY" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DTI-XT-9sY" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="165" y="132" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -329,7 +329,7 @@
                         <outlet property="controller" destination="-2" id="v2O-yQ-lWD"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XCR-Cq-YAr" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XCR-Cq-YAr" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="165" y="106" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -341,7 +341,7 @@
                         <outlet property="controller" destination="-2" id="1Rc-km-tuU"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xY4-mt-buU" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xY4-mt-buU" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="165" y="80" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -353,7 +353,7 @@
                         <outlet property="controller" destination="-2" id="PYv-xT-PSg"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LSc-Qh-Y2G" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LSc-Qh-Y2G" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="165" y="54" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -365,7 +365,7 @@
                         <outlet property="controller" destination="-2" id="tGo-RD-X1h"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s6f-6t-vb2" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s6f-6t-vb2" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="165" y="28" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -377,7 +377,7 @@
                         <outlet property="controller" destination="-2" id="ZI9-Pk-goe"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rwN-ee-OHs" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rwN-ee-OHs" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="205" y="158" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -389,7 +389,7 @@
                         <outlet property="controller" destination="-2" id="YIg-Hx-nvy"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="phl-7W-TPa" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="phl-7W-TPa" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="205" y="132" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -401,7 +401,7 @@
                         <outlet property="controller" destination="-2" id="2rf-sH-bvd"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5BD-la-VV9" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5BD-la-VV9" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="205" y="106" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -413,7 +413,7 @@
                         <outlet property="controller" destination="-2" id="dFu-Ka-cbE"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qsY-Rw-D5s" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qsY-Rw-D5s" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="205" y="80" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -425,7 +425,7 @@
                         <outlet property="controller" destination="-2" id="imf-JC-3uJ"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mra-h7-BRS" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mra-h7-BRS" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="205" y="54" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -437,7 +437,7 @@
                         <outlet property="controller" destination="-2" id="ptx-f5-LjI"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TGP-10-LIM" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TGP-10-LIM" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="205" y="28" width="39" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -449,7 +449,7 @@
                         <outlet property="controller" destination="-2" id="gpa-JO-V2p"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twg-AI-e5M" customClass="ColorPopoverGradientSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twg-AI-e5M" customClass="ColorPopoverGradientSwatch">
                     <rect key="frame" x="29" y="3" width="191" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -464,7 +464,7 @@
                         <outlet property="controller" destination="-2" id="hWh-p9-D92"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VI8-Dp-tbl" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VI8-Dp-tbl" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="5" y="3" width="22" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
@@ -476,7 +476,7 @@
                         <outlet property="controller" destination="-2" id="oTA-JH-XhG"/>
                     </connections>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yr3-e8-fT4" customClass="ColorPopoverSwatch" customModule="ColorPopoverWell" customModuleProvider="target">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yr3-e8-fT4" customClass="ColorPopoverSwatch">
                     <rect key="frame" x="222" y="3" width="22" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <userDefinedRuntimeAttributes>
