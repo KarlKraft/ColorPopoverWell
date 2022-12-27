@@ -31,7 +31,7 @@ class ColorPopoverWell: NSColorWell {
   lazy var popover: NSPopover = {
     popover = NSPopover.init()
 
-    popover.contentViewController = NSViewController.init(nibName: "ColorPopoverWell", bundle: Bundle.init(for: type(of: self)))
+    popover.contentViewController = NSViewController.init(nibName: "ColorPopoverWell", bundle: .module)
     popover.behavior = .transient
     popover.contentViewController?.representedObject = self
     return popover
