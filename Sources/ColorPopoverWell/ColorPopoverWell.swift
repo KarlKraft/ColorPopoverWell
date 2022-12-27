@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ColorPopoverWell: NSColorWell {
+public class ColorPopoverWell: NSColorWell {
   // 66 x 23
   var wheelRect: NSRect {
     get {
