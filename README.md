@@ -28,3 +28,10 @@ To upgrade from the plain boring NSColorWell to ColorPopoverWell you only need t
 * Drag and drop of color swatches with feedback on drops
 * Gradient selection
 
+
+For a walk through and history of the code see [Walkthrough.md](Documentation/Walkthrough.md)
+
+
+----
+Karl Kraft
+karl@karlkraft.com
