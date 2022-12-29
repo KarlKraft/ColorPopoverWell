@@ -3,7 +3,7 @@
 //  ColorPopoverWell
 //
 //  Created by Karl Kraft on 2/1/14.
-//  Copyright 2014-2022 Karl Kraft. All rights reserved.
+//  Copyright 2014-2022 Karl Kraft. Licensed under Apache License, Version 2.0
 //
 
 

@@ -1,3 +1,12 @@
+//
+//  Package.swift
+//  ColorPopoverWell
+//
+//  Created by Karl Kraft on 12/25/22
+//  Copyright 2022 Karl Kraft. Licensed under Apache License, Version 2.0
+//
+
+
 // swift-tools-version: 5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 

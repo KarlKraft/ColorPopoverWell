@@ -1,3 +1,12 @@
+//
+//  ColorPopoverWellTests.swift
+//  ColorPopoverWell
+//
+//  Created by Karl Kraft on 7/3/22
+//  Copyright 2022 Karl Kraft. Licensed under Apache License, Version 2.0
+//
+
+
 import XCTest
 @testable import ColorPopoverWell
 

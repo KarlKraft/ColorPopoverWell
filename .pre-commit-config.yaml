@@ -18,3 +18,9 @@ repos:
     -   id: forbid-crlf
     -   id: forbid-tabs
         types_or: [objective-c,objective-c++,swift,swiftdeps,java]
+
+-   repo: https://github.com/KarlKraft/header_check
+    rev: v0.2.0
+    hooks:
+    -   id: header_check
+        args: [--license,apache]
