@@ -56,46 +56,57 @@
 --enumthreshold 0
 --extensionlength 0
 
-# My set
-#
-#
---disable andOperator,blockComments,docComments,preferDouble
-
---enable anyObjectProtocol,assertionFailures,blankLineAfterImports,blankLinesAroundMark,blankLinesAtEndOfScope,blankLinesAtStartOfScope,blankLinesBetweenImports,blankLinesBetweenScopes,consecutiveBlankLines,consecutiveSpaces,duplicateImports,initCoderUnavailable,isEmpty,leadingDelimiters,linebreakAtEndOfFile
-
-# defaults
---assetliterals visual-width
---closingparen same-line
---closurevoid remove
---commas always
---conflictmarkers reject
---fragment false
---funcattributes preserve
---importgrouping alpha
---lineaftermarks true
---maxwidth none
---nevertrailing 
---nospaceoperators 
---nowrapoperators 
---operatorfunc spaced
---ranges spaced
---redundanttype infer-locals-only
 --self remove
 --selfrequired 
+
 --semicolons never
+
+--importgrouping alpha
+
+--operatorfunc spaced
+--nospaceoperators 
+--ranges spaced
+
+--trailingclosures 
+--nevertrailing 
+
+--commas always
+
 --shortoptionals always
 --stripunusedargs closure-only
---trailingclosures 
---trimwhitespace always
---typeattributes preserve
---typeblanklines remove
---varattributes preserve
---voidtype void
+
+
+--maxwidth none
+--nowrapoperators 
+--assetliterals visual-width
+--wrapternary default
 --wraparguments preserve
 --wrapcollections before-first
 --wrapconditions preserve
 --wrapparameters default
 --wrapreturntype preserve
---wrapternary default
 --wraptypealiases preserve
+
+--funcattributes preserve
+--typeattributes preserve
+--varattributes preserve
+
+--closingparen same-line
+--closurevoid remove
+--conflictmarkers reject
+--fragment false
+--lineaftermarks true
+--redundanttype infer-locals-only
+--trimwhitespace always
+--typeblanklines remove
+--voidtype void
 --yodaswap always
+
+
+# 
+#
+#
+--disable andOperator,blockComments,docComments,preferDouble,sortDeclarations
+
+--enable anyObjectProtocol,assertionFailures,blankLineAfterImports,blankLinesAroundMark,blankLinesAtEndOfScope,blankLinesAtStartOfScope,blankLinesBetweenImports,blankLinesBetweenScopes,consecutiveBlankLines,consecutiveSpaces,duplicateImports,initCoderUnavailable,isEmpty,leadingDelimiters,linebreakAtEndOfFile,preferKeyPath,redundantBackticks,redundantBreak,redundantClosure,redundantExtensionACL,redundantFileprivate,redundantGet,redundantInit,redundantLet,redundantLetError,redundantNilInit,redundantObjc,redundantOptionalBinding,redundantParens,redundantPattern,redundantRawValues,redundantReturn,redundantSelf,redundantType,redundantVoidReturnType,sortedSwitchCases,spaceAroundBraces,spaceAroundBrackets,spaceAroundComments,spaceAroundGenerics,spaceAroundOperators,spaceAroundParens,spaceInsideBraces,spaceInsideBrackets,spaceInsideComments,spaceInsideGenerics,spaceInsideParens,strongOutlets,strongifiedSelf,todos,trailingClosures,unusedArguments
+
