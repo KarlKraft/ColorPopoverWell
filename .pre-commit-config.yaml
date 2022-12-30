@@ -20,7 +20,12 @@ repos:
         types_or: [objective-c,objective-c++,swift,swiftdeps,java]
 
 -   repo: https://github.com/KarlKraft/header_check
-    rev: v0.2.0
+    rev: v1.0.0
     hooks:
     -   id: header_check
         args: [--license,apache]
+-   repo: https://github.com/nicklockwood/SwiftFormat
+    rev: 0.50.7
+    hooks:
+    -   id: swiftformat
+

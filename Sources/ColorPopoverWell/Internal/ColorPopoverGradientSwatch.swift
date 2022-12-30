@@ -9,7 +9,6 @@
 import Cocoa
 
 internal class ColorPopoverGradientSwatch: NSView {
-
   var controller: NSViewController?
 
   @IBInspectable var leftColor: NSColor = .clear
@@ -22,7 +21,7 @@ internal class ColorPopoverGradientSwatch: NSView {
   var trackOffset = 0.0
 
   override init(frame frameRect: NSRect) {
-    super.init(frame: frameRect);
+    super.init(frame: frameRect)
   }
 
   required init?(coder: NSCoder) {
@@ -30,15 +29,14 @@ internal class ColorPopoverGradientSwatch: NSView {
   }
 
   override func draw(_ dirtyRect: NSRect) {
-
-    gradient = NSGradient.init(starting: leftColor, ending: rightColor)
+    gradient = NSGradient(starting: leftColor, ending: rightColor)
 
     gradient?.draw(in: bounds, angle: 0.0)
 
     NSColor.lightGray.set()
     bounds.frame(withWidth: 0.5, using: .sourceOver)
 
-    if (tracking) {
+    if tracking {
       if #available(macOS 10.14, *) {
         NSColor.controlAccentColor.set()
       } else {
@@ -50,38 +48,37 @@ internal class ColorPopoverGradientSwatch: NSView {
   }
 
   override func mouseDown(with startEvent: NSEvent) {
-
     var trackedColor = NSColor.clear
     var loopEvent: NSEvent? = startEvent
     var currentPoint = convert(loopEvent!.locationInWindow, from: nil)
-    var delta = currentPoint.x - bounds.origin.x;
-    delta = delta / bounds.size.width;
+    var delta = currentPoint.x - bounds.origin.x
+    delta = delta / bounds.size.width
     trackOffset = currentPoint.x
-    tracking = true;
+    tracking = true
     needsDisplay = true
 
     repeat {
       loopEvent = window?.nextEvent(matching: [.leftMouseDragged, .leftMouseUp], until: .distantFuture, inMode: .default, dequeue: true)
-      if (loopEvent != nil) {
+      if loopEvent != nil {
         currentPoint = convert(loopEvent!.locationInWindow, from: nil)
-        delta = currentPoint.x - bounds.origin.x;
-        delta = delta / bounds.size.width;
+        delta = currentPoint.x - bounds.origin.x
+        delta = delta / bounds.size.width
         needsDisplay = true
         trackedColor = gradient!.interpolatedColor(atLocation: delta)
         trackOffset = currentPoint.x
         if NSMouseInRect(currentPoint, bounds, isFlipped) {
-          if (!tracking) {
+          if !tracking {
             tracking = true
             needsDisplay = true
           }
-        } else if (tracking) {
+        } else if tracking {
           tracking = false
           needsDisplay = true
         }
       }
-    } while (loopEvent != nil && loopEvent!.type != .leftMouseUp)
+    } while loopEvent != nil && loopEvent!.type != .leftMouseUp
 
-    if (tracking) {
+    if tracking {
       let well = controller?.representedObject as! ColorPopoverWell
       well.selectedColor(trackedColor)
     }
@@ -89,4 +86,3 @@ internal class ColorPopoverGradientSwatch: NSView {
     needsDisplay = true
   }
 }
-
