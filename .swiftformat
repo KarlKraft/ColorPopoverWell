@@ -59,9 +59,9 @@
 # My set
 #
 #
---disable andOperator,blockComments,docComments
+--disable andOperator,blockComments,docComments,preferDouble
 
---enable anyObjectProtocol,assertionFailures,blankLineAfterImports,blankLinesAroundMark,blankLinesAtEndOfScope,blankLinesAtStartOfScope,blankLinesBetweenImports,blankLinesBetweenScopes,consecutiveBlankLines,consecutiveSpaces,duplicateImports,initCoderUnavailable,isEmpty,leadingDelimiters,linebreakAtEndOfFile,preferDouble
+--enable anyObjectProtocol,assertionFailures,blankLineAfterImports,blankLinesAroundMark,blankLinesAtEndOfScope,blankLinesAtStartOfScope,blankLinesBetweenImports,blankLinesBetweenScopes,consecutiveBlankLines,consecutiveSpaces,duplicateImports,initCoderUnavailable,isEmpty,leadingDelimiters,linebreakAtEndOfFile
 
 # defaults
 --assetliterals visual-width
