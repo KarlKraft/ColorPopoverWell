@@ -5,7 +5,7 @@
 //  ColorPopoverWell
 //
 //  Created by Karl Kraft on 12/25/22
-//  Copyright 2022 Karl Kraft. Licensed under Apache License, Version 2.0
+//  Copyright 2022-2023 Karl Kraft. Licensed under Apache License, Version 2.0
 //
 
 import PackageDescription
@@ -30,7 +30,10 @@ let package = Package(
     // Targets can depend on other targets in this package, and on products in packages this package depends on.
     .target(
       name: "ColorPopoverWell",
-      dependencies: []),
+      dependencies: [],
+      resources: [
+        .process("Resources"),
+      ]),
     .testTarget(
       name: "ColorPopoverWellTests",
       dependencies: ["ColorPopoverWell"]),
