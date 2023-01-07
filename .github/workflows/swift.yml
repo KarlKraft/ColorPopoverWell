@@ -15,9 +15,8 @@ jobs:
   build:
 
     runs-on: 
-      - self-hostted
+      - self-hosted
       - macOS
-      - ARM64
 
     steps:
     - uses: actions/checkout@v3
