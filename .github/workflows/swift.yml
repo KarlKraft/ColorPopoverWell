@@ -5,15 +5,12 @@ name: Swift
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
   build:
 
-    runs-on: 
+    runs-on:
       - self-hosted
       - macOS
 
