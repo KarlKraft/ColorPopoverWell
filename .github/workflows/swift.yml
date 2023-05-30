@@ -1,9 +1,11 @@
 # This workflow will build a Swift project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
 
-name: Swift
+name: Swift Build and Test
 
 on:
+  schedule:
+      - cron: '00 09 * * 6'   # Every Saturday
   push:
   workflow_dispatch:
 
