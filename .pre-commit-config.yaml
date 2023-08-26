@@ -18,14 +18,14 @@ repos:
     -   id: check-case-conflict
 
 -   repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.5.1
+    rev: v1.5.4
     hooks:
     -   id: forbid-crlf
     -   id: forbid-tabs
         types_or: [objective-c,objective-c++,swift,swiftdeps,java]
 
 -   repo: https://github.com/KarlKraft/header_check
-    rev: v1.5.1
+    rev: v1.5.3
     hooks:
     -   id: header_check
         args: [--license,apache]
@@ -36,7 +36,7 @@ repos:
     -  id: go-fmt
 
 -   repo: https://github.com/nicklockwood/SwiftFormat
-    rev: 0.51.11
+    rev: 0.52.2
     hooks:
     -   id: swiftformat
 
