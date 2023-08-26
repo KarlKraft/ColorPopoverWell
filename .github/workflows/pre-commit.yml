@@ -1,0 +1,37 @@
+name: Pre-commit auto-update
+
+
+on:
+  schedule:
+      - cron: '08 2 * * 6'   # Every Saturday
+  workflow_dispatch:
+  push:
+
+jobs:
+
+  auto-update:
+    runs-on:
+      - self-hosted
+
+    permissions:
+      contents: write
+      pull-requests: write
+      
+    steps:
+      - uses: actions/checkout@v3
+          
+      - run: pre-commit autoupdate
+        shell: bash
+      
+      - uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update/pre-commit-hooks
+          title: Update pre-commit hooks
+          commit-message: "chore: update pre-commit hooks"
+          committer: Karl Kraft <karl@karlkraft.com>
+          author: Karl Kraft <karl@karlkraft.com>
+          body: Update versions of pre-commit hooks to latest version.
+          add-paths: |
+            .pre-commit-config.yaml
+
