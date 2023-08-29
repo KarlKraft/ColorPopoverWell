@@ -1,9 +1,10 @@
+---
 name: Pre-commit auto-update
 
 
-on:
+on:                          # yamllint disable-line rule:truthy
   schedule:
-      - cron: '08 2 * * 6'   # Every Saturday
+    - cron: '08 2 * * 6'   # Every Saturday
   workflow_dispatch:
   push:
 
@@ -18,13 +19,13 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-      
+
     steps:
       - uses: actions/checkout@v3
-          
+
       - run: pre-commit autoupdate
         shell: bash
-      
+
       - uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -36,4 +37,3 @@ jobs:
           body: Update versions of pre-commit hooks to latest version.
           add-paths: |
             .pre-commit-config.yaml
-

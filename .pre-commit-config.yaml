@@ -1,42 +1,50 @@
+---
 #
-#  pre-commit KarlKraft defaults 02/25/23
+#  pre-commit KarlKraft defaults 08/29/23
 #
 
 
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
-    hooks:
-    -   id: check-json
-    -   id: check-toml
-    -   id: check-yaml
-    -   id: check-xml
-    -   id: check-added-large-files
-    -   id: check-merge-conflict
-    -   id: check-symlinks
-    -   id: check-byte-order-marker
-    -   id: check-case-conflict
 
--   repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.5.4
-    hooks:
-    -   id: forbid-crlf
-    -   id: forbid-tabs
-        types_or: [objective-c,objective-c++,swift,swiftdeps,java]
 
--   repo: https://github.com/KarlKraft/header_check
-    rev: v1.5.3
-    hooks:
-    -   id: header_check
-        args: [--license,apache]
+ - repo: https://github.com/pre-commit/pre-commit-hooks
+   rev: v4.4.0
+   hooks:
+    - id: check-json
+    - id: check-toml
+    - id: check-yaml
+    - id: check-xml
+    - id: check-added-large-files
+    - id: check-merge-conflict
+    - id: check-symlinks
+    - id: check-byte-order-marker
+    - id: check-case-conflict
 
--   repo: https://github.com/dnephin/pre-commit-golang
-    rev: v0.5.1
-    hooks:
-    -  id: go-fmt
+ - repo: https://github.com/Lucas-C/pre-commit-hooks
+   rev: v1.5.4
+   hooks:
+    - id: forbid-crlf
+    - id: forbid-tabs
+      types_or: [objective-c, objective-c++, swift, swiftdeps, java]
 
--   repo: https://github.com/nicklockwood/SwiftFormat
-    rev: 0.52.2
-    hooks:
-    -   id: swiftformat
+ - repo: https://github.com/KarlKraft/header_check
+   rev: v1.5.3
+   hooks:
+    - id: header_check
+      args: [--license, arr]
 
+ - repo: https://github.com/dnephin/pre-commit-golang
+   rev: v0.5.1
+   hooks:
+    - id: go-fmt
+
+ - repo: https://github.com/nicklockwood/SwiftFormat
+   rev: 0.52.2
+   hooks:
+    - id: swiftformat
+
+ - repo: https://github.com/adrienverge/yamllint.git
+   rev: v1.32.0
+   hooks:
+    - id: yamllint
+      args: [--strict]
