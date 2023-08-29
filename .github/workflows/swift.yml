@@ -16,6 +16,8 @@ jobs:
       - self-hosted
       - macOS
 
+    timeout-minutes: 10
+
     steps:
     - uses: actions/checkout@v3
     - name: Build
