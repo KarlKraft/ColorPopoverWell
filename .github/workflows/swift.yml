@@ -3,7 +3,7 @@ name: Swift Build and Test
 
 on:                          # yamllint disable-line rule:truthy
   schedule:
-    - cron: '00 09 * * 6'   # Every Saturday
+    - cron: '00 09 * * 6'
   push:
   workflow_dispatch:
 
@@ -18,9 +18,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GPAT }}
-          submodules: recursive
 
       - name: Build
         run: swift build -v
