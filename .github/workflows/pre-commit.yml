@@ -4,7 +4,7 @@ name: Pre-commit auto-update
 
 on:                          # yamllint disable-line rule:truthy
   schedule:
-    - cron: '08 2 * * 6'   # Every Saturday
+    - cron: '08 2 * * 6'
   workflow_dispatch:
   push:
 
