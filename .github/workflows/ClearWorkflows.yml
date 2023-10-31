@@ -52,6 +52,7 @@ jobs:
 
     permissions:
       actions: write
+      contents: write
 
     steps:
       - name: Delete workflow runs
@@ -59,7 +60,7 @@ jobs:
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
-          retain_days: ${{ github.event.inputs.days || 30 }}
-          keep_minimum_runs: ${{ github.event.inputs.minimum_runs || 6 }}
+          retain_days: ${{ github.event.inputs.days || 7 }}
+          keep_minimum_runs: ${{ github.event.inputs.minimum_runs || 3 }}
           delete_workflow_by_state_pattern: ${{ github.event.inputs.delete_workflow_by_state_pattern || 'All' }}
           delete_run_by_conclusion_pattern: ${{ github.event.inputs.delete_run_by_conclusion_pattern || 'All' }}
