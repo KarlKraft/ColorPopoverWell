@@ -39,12 +39,12 @@ repos:
     - id: go-fmt
 
  - repo: https://github.com/nicklockwood/SwiftFormat
-   rev: 0.52.8
+   rev: 0.52.10
    hooks:
     - id: swiftformat
 
  - repo: https://github.com/adrienverge/yamllint.git
-   rev: v1.32.0
+   rev: v1.33.0
    hooks:
     - id: yamllint
       args: [--strict]
