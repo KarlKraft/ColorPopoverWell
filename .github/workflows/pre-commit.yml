@@ -7,6 +7,10 @@ on:                          # yamllint disable-line rule:truthy
     - cron: '08 2 * * 6'
   workflow_dispatch:
   push:
+    branches:
+      - '**'
+    tags:
+      - '!**'
 
 jobs:
 
