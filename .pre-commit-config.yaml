@@ -31,7 +31,7 @@ repos:
    rev: v1.7.0
    hooks:
     - id: header_check
-      args: [--license, arr]
+      args: [--autodate, --license, arr]
 
  - repo: https://github.com/dnephin/pre-commit-golang
    rev: v0.5.1
