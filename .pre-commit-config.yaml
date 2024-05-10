@@ -33,11 +33,6 @@ repos:
     - id: header_check
       args: [--autodate, --license, arr]
 
- - repo: https://github.com/dnephin/pre-commit-golang
-   rev: v0.5.1
-   hooks:
-    - id: go-fmt
-
  - repo: https://github.com/nicklockwood/SwiftFormat
    rev: 0.53.8
    hooks:
@@ -48,3 +43,8 @@ repos:
    hooks:
     - id: yamllint
       args: [--strict]
+
+ - repo: https://github.com/rhysd/actionlint
+   rev: v1.7.0
+   hooks:
+    - id: actionlint
