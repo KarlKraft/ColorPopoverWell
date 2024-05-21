@@ -4,8 +4,14 @@ name: Build Swift Package
 on:                          # yamllint disable-line rule:truthy
   schedule:
     - cron: '00 09 * * 6'
-  push:
+
   workflow_dispatch:
+
+  push:
+    branches:
+      - '!update/pre-commit-hooks'
+      - '!dependabot/*'
+      - '**'
 
 jobs:
   build:
