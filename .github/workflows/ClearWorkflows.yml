@@ -64,3 +64,6 @@ jobs:
           keep_minimum_runs: ${{ github.event.inputs.minimum_runs || 3 }}
           delete_workflow_by_state_pattern: ${{ github.event.inputs.delete_workflow_by_state_pattern || 'All' }}
           delete_run_by_conclusion_pattern: ${{ github.event.inputs.delete_run_by_conclusion_pattern || 'All' }}
+
+      - name: Mark Completed
+        run: touch  ${{ runner.temp }}/Green
