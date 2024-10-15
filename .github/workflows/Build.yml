@@ -14,7 +14,7 @@ on:                          # yamllint disable-line rule:truthy
 
 env:
   TARGET: 'ColorPopoverWell_ColorPopoverWell'
-  EXTENSION: 'bundle'
+  EXTENSION: '.bundle'
 
 jobs:
   build:
