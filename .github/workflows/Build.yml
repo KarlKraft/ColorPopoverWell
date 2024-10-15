@@ -30,3 +30,7 @@ jobs:
 
       - name: Build
         run: $HOME/github/bin/build_SwiftPackage.sh
+
+      - name: Mark Completed
+        run: touch  ${{ runner.temp }}/Green
+
