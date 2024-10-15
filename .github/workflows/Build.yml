@@ -12,6 +12,10 @@ on:                          # yamllint disable-line rule:truthy
       - 'update/**'
       - 'dependabot/**'
 
+env:
+  TARGET: 'ColorPopoverWell_ColorPopoverWell'
+  EXTENSION: 'bundle'
+
 jobs:
   build:
 
