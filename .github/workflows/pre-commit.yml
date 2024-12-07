@@ -1,16 +1,11 @@
 ---
-name: Pre-commit auto-update
+name: Pre-commit
 
 
 on:                          # yamllint disable-line rule:truthy
   schedule:
     - cron: '08 2 * * 6'
   workflow_dispatch:
-  push:
-    branches:
-      - "main"
-    tags:
-      - '!**'
 
 jobs:
 
@@ -59,3 +54,6 @@ jobs:
         run: gh pr review --approve "${{ steps.cpr.outputs.pull-request-number }}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Mark Completed
+        run: touch  ${{ runner.temp }}/Green
