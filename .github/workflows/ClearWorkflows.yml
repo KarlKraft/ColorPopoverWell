@@ -1,11 +1,11 @@
 ---
 # yamllint disable rule:line-length
 
-name: Delete old workflow runs
+name: Workflows
 
 on:                          # yamllint disable-line rule:truthy
   schedule:
-    - cron: '9 0 * * *'
+    - cron: '0 1 * * 0'
   workflow_dispatch:
     inputs:
       days:
@@ -43,7 +43,7 @@ on:                          # yamllint disable-line rule:truthy
 
 jobs:
 
-  del_runs:
+  Delete:
 
     runs-on:
       - self-hosted
