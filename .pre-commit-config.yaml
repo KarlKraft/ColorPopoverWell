@@ -39,7 +39,7 @@ repos:
     - id: swiftformat
 
  - repo: https://github.com/adrienverge/yamllint.git
-   rev: v1.35.1
+   rev: v1.36.1
    hooks:
     - id: yamllint
       args: [--strict]
