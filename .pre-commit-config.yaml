@@ -17,7 +17,7 @@ repos:
     - id: check-added-large-files
     - id: check-merge-conflict
     - id: check-symlinks
-    - id: check-byte-order-marker
+    - id: fix-byte-order-marker
     - id: check-case-conflict
 
  - repo: https://github.com/Lucas-C/pre-commit-hooks
