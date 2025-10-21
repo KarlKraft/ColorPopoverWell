@@ -8,7 +8,7 @@ repos:
 
 
  - repo: https://github.com/pre-commit/pre-commit-hooks
-   rev: v5.0.0
+   rev: v6.0.0
    hooks:
     - id: check-json
     - id: check-toml
@@ -28,23 +28,23 @@ repos:
       types_or: [objective-c, objective-c++, swift, swiftdeps, java]
 
  - repo: https://github.com/KarlKraft/header_check
-   rev: v1.7.0
+   rev: v2.0.2
    hooks:
     - id: header_check
       args: [--autodate, --license, arr]
 
  - repo: https://github.com/nicklockwood/SwiftFormat
-   rev: 0.55.5
+   rev: 0.58.5
    hooks:
     - id: swiftformat
 
  - repo: https://github.com/adrienverge/yamllint.git
-   rev: v1.36.2
+   rev: v1.37.1
    hooks:
     - id: yamllint
       args: [--strict]
 
  - repo: https://github.com/rhysd/actionlint
-   rev: v1.7.7
+   rev: v1.7.8
    hooks:
     - id: actionlint
