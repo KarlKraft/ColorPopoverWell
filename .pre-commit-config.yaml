@@ -34,7 +34,7 @@ repos:
       args: [--autodate, --license, arr]
 
  - repo: https://github.com/nicklockwood/SwiftFormat
-   rev: 0.58.5
+   rev: 0.58.6
    hooks:
     - id: swiftformat
 
