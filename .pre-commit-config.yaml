@@ -21,7 +21,7 @@ repos:
     - id: check-case-conflict
 
  - repo: https://github.com/Lucas-C/pre-commit-hooks
-   rev: v1.5.5
+   rev: v1.5.6
    hooks:
     - id: forbid-crlf
     - id: forbid-tabs
@@ -39,12 +39,12 @@ repos:
     - id: swiftformat
 
  - repo: https://github.com/adrienverge/yamllint.git
-   rev: v1.37.1
+   rev: v1.38.0
    hooks:
     - id: yamllint
       args: [--strict]
 
  - repo: https://github.com/rhysd/actionlint
-   rev: v1.7.9
+   rev: v1.7.10
    hooks:
     - id: actionlint
