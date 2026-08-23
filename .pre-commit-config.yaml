@@ -28,7 +28,7 @@ repos:
       types_or: [objective-c, objective-c++, swift, swiftdeps, java]
 
  - repo: https://github.com/KarlKraft/header_check
-   rev: v2.1.0
+   rev: '3.1'
    hooks:
     - id: header_check
       args: [--autodate, --license, arr]
