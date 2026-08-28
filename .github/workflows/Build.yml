@@ -8,9 +8,6 @@ on:                          # yamllint disable-line rule:truthy
   workflow_dispatch:
 
   push:
-    branches-ignore:
-      - 'update/**'
-      - 'dependabot/**'
 
 env:
   TARGET: 'ColorPopoverWell_ColorPopoverWell'
@@ -33,4 +30,3 @@ jobs:
 
       - name: Mark Completed
         run: touch  ${{ runner.temp }}/Green
-
