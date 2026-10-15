@@ -47,7 +47,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
-          merge-method: squash
+          merge-method: merge
 
       - name: Auto approve
         if: steps.cpr.outputs.pull-request-operation == 'created'
