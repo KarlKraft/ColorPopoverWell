@@ -1,0 +1,45 @@
+---
+name: Dependabot Automerge
+
+
+on:                          # yamllint disable-line rule:truthy
+  pull_request:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+
+  auto-merge:
+    runs-on:
+      - self-hosted
+      - pre-commit
+
+    timeout-minutes: 10
+
+    if: github.actor == 'dependabot[bot]'
+
+    steps:
+      - name: Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Approve Pull Request
+        if: steps.metadata.outputs.package-ecosystem == 'github_actions'
+        run: gh pr review --approve "${{ github.event.pull_request.html_url }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Enable Pull Request Automerge
+        if: steps.metadata.outputs.package-ecosystem == 'github_actions'
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ github.event.pull_request.number }}
+          merge-method: merge
+
+      - name: Mark Completed
+        run: touch  ${{ runner.temp }}/Green
