@@ -5,7 +5,7 @@ name: Workflows
 
 on:                          # yamllint disable-line rule:truthy
   schedule:
-    - cron: '0 1 * * 0'
+    - cron: '50 13 * * 6'
   workflow_dispatch:
     inputs:
       days:
