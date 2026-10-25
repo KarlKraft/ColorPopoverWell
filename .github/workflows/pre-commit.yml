@@ -4,7 +4,7 @@ name: Pre-commit
 
 on:                          # yamllint disable-line rule:truthy
   schedule:
-    - cron: '55 15 * * 6'
+    - cron: '55 11 * * 6'
   workflow_dispatch:
 
 jobs:
@@ -48,12 +48,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
           merge-method: merge
-
-      - name: Auto approve
-        if: steps.cpr.outputs.pull-request-operation == 'created'
-        run: gh pr review --approve "${{ steps.cpr.outputs.pull-request-number }}"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Mark Completed
         run: touch  ${{ runner.temp }}/Green
